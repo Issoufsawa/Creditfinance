@@ -2,9 +2,9 @@
 :root {
     --primary: #355EFC;
     --secondary: #E93C05;
-    --tertiary: #555555;
+    --tertiary: #161414;
     --light: #DFE4FD;
-    --dark: #011A41;
+    --dark: #14314a;
 }
 
 .back-to-top {
@@ -177,8 +177,8 @@ h6,
 .carousel-control-next-icon {
     width: 3rem;
     height: 3rem;
-    background-color: var(--primary);
-    border: 10px solid var(--primary);
+    background-color:#14314a;
+    border: 10px solid #14314a;
 }
 
 .carousel-control-prev-icon {
@@ -222,7 +222,7 @@ h6,
 
 /*** Facts ***/
 .facts {
-    background: linear-gradient(rgba(53, 94, 252, .95), rgba(53, 94, 252, .95)), url(../img/bg.png);
+    background: linear-gradient(#f073b2, #FF1D8D), url(../img/bg.png);
 }
 
 
@@ -238,8 +238,9 @@ h6,
     height: 50%;
     top: 0;
     left: 0;
-    background: linear-gradient(rgba(53, 94, 252, .95), rgba(53, 94, 252, .95)), url(../img/bg.png);
+    background: linear-gradient(#f073b2, #FF1D8D), url(../img/bg.png);
     z-index: -1;
+
 }
 
 
@@ -497,7 +498,7 @@ h6,
 }
 
 .testimonial-carousel .owl-dot.active::after {
-    background: var(--primary);
+    background: var(--);
 }
 
 
@@ -522,7 +523,7 @@ h6,
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color:#14314a;
     letter-spacing: 1px;
     box-shadow: none;
 }
@@ -537,5 +538,141 @@ h6,
 }
 
 .copyright a:hover {
-    color: var(--primary);
+    color: #14314a;
 }
+
+.logo {
+    height: 100px; /* Ajustez la taille selon vos besoins */
+    width: auto; /* Maintient le ratio de l'image */
+}
+/*
+.btn1{
+  background-color: #011A41;
+  color: #FFFFFF;
+}
+
+
+.btn1:hover{
+    background-color: #ff8000;
+    color: #FFFFFF;
+  }
+    */
+
+    #pri{
+        color: #FF1D8D ;
+    }
+
+    .bg-custom-footer {
+        background-color: #FF1D8D !important;
+    }
+    
+    .bg-custom{
+        background-color: #FF1D8D !important;
+        color: #FFFFFF;
+        border-color: #FF1D8D ;
+    }
+ 
+    .bg-custom1{
+        background-color: #FF1D8D  !important;
+        color: #FFFFFF;
+        border-color: #FF1D8D ;
+    }
+    .bg-custom:hover{
+        background-color: #14314a !important;
+        color: #FFFFFF;
+        border-color: #14314a !important;
+    }
+
+
+    .btn-outline-custom {
+        color: #ffffff !important; 
+        border-color: #ffffff  !important; 
+    }
+    
+    .btn-outline-custom:hover {
+        background-color: #FF1D8D!important;
+        color: #ffffff !important; 
+        border-color: #FF1D8D !important;
+    }
+    
+    .btn-outline-custom1 {
+        color: #ffffff  !important; 
+        border-color: #ffffff  !important; 
+    }
+    
+    .btn-outline-custom1:hover {
+        background-color: #14314a !important;
+        color: #ffffff !important; 
+        border-color: #14314a  !important;
+    }
+    
+
+    
+    .btn-outline-light  {
+        color: #d4dde5 !important; 
+        border-color: #e4e5e6 !important; 
+    }
+    
+    .btn-outline-light:hover  {
+        background-color: #14314a !important;
+        color: #ffffff !important; 
+        border-color: #14314a !important;
+    }
+    
+  
+    .bg-gray {
+        background-color: #F2F4FA; /* Gris clair */
+    }
+    
+    
+    .bg-gray1 {
+        background-color:  #14314a; 
+      border: #FF1D8D !important;
+    }
+    
+
+    .navbar-scrolled {
+        background-color: #F2F4FA !important; /* Couleur de fond */
+        transition: background-color 0.3s ease-in-out; /* Animation fluide */
+       
+    }
+
+    .card {
+        height: 100%; /* Prendre toute la hauteur disponible */
+    }
+    
+    .card img {
+        object-fit: cover; /* Ajuste l'image pour qu'elle couvre tout l'espace */
+        height: 100%;
+    }
+    
+    .col-lg-6 .nav, .col-lg-6 .tab-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* S'assurer que le contenu est centré verticalement */
+    }
+    
+    .card-img-top {
+        transition: transform 0.3s ease, filter 0.3s ease; /* Ajoute une transition fluide */
+        border-radius:20px 20px 20px 20px;
+    }
+    
+    .card-img-top:hover {
+        filter: brightness(0.9); /* Réduit légèrement la luminosité */
+       
+    }
+    .card{
+        border-radius:20px 20px 20px 20px;
+    }
+    
+    .btn-dark{
+        background-color: #FF1D8D ;
+    }
+
+    #si{
+        color: #FFFFFF !important;
+    }
+ .rounded-start{
+    border-radius: 20px 20px 20px 20px !important;
+ }

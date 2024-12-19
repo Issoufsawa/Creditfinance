@@ -20,15 +20,15 @@
     $(window).scroll(function () {
         if ($(window).width() < 992) {
             if ($(this).scrollTop() > 45) {
-                $('.fixed-top').addClass('bg-white shadow');
+                $('.fixed-top').addClass('navbar-scrolled shadow');
             } else {
-                $('.fixed-top').removeClass('bg-white shadow');
+                $('.fixed-top').removeClass('navbar-scrolled shadow');
             }
         } else {
             if ($(this).scrollTop() > 45) {
-                $('.fixed-top').addClass('bg-white shadow').css('top', -45);
+                $('.fixed-top').addClass('navbar-scrolled shadow').css('top', -45);
             } else {
-                $('.fixed-top').removeClass('bg-white shadow').css('top', 0);
+                $('.fixed-top').removeClass('navbar-scrolled shadow').css('top', 0);
             }
         }
     });
