@@ -84,8 +84,8 @@
                         <a href="feature.html" class="dropdown-item">Simulateur de DAT</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link active">Contact</a>
-                <a href="devenir.html" class="nav-item nav-link">Devenir Client</a>
+                <a href="contact.html" class="nav-item nav-link ">Contact</a>
+                <a href="devenir.html" class="nav-item nav-link active">Devenir Client</a>
             </div>
             <div class="d-none d-lg-flex ms-2">
                 <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
@@ -117,25 +117,32 @@
         </div>
     </div>
     <!-- Page Header End -->
-
+    <h1 class="display-6 mb-4 mt-4 text-center">Devenez client chez Crédit Finance</h1>
     <!-- Contact Start -->
     <div class="container-fluid bg-gray py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                         <!-- <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Contact</p>-->
+                       
                   
                    
                     <div class="card  shadow mb-4">
-                        <h1 class="display-6 mb-4 mt-4 text-center">Discuter avec un conseiller</h1>
+                        <h1 class="display-6 mb-4 mt-4 text-center">Être recontacté</h1>
                         <div class="card-body">
                             <form>
                                 <div class="row g-3">
-                                    <div class="col-12">
+                                    <div class="col-6">
                                         <div class="form-floating">
                                             
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Nom et Prénoms</label>
+                                            <input type="text" class="form-control" id="name">
+                                            <label for="name">Nom </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="Prenom">
+                                            <label for="Prenom">Prénom</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -152,19 +159,42 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                            <label for="subject">Objet</label>
+                                            <select class="form-select" id="subject" aria-label="Objet">
+                                                <option value="" selected disabled>-Selectionner-</option>
+                                                <option value="demande-info">Particulier</option>
+                                                <option value="support-technique">PME</option>
+                                            </select>
+                                            <label for="phone">Profil</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                                style="height: 100px"></textarea>
-                                            <label for="message">Votre message</label>
+                                            <select class="form-select" id="subject" aria-label="Objet">
+                                                <option value="" selected disabled>-Selectionner-</option>
+                                                <option value="demande-info">Comptes</option>
+                                                <option value="support-technique">Crédit</option>
+                                                <option value="feedback">Expertise Comptable</option>
+                                                <option value="autre">Autres à préciser</option>
+                                            </select>
+                                            <label for="phone">Type de Produit</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <div class="form-floating">
+                                            
+                                            <input type="text" class="form-control" id="ville">
+                                            <label for="ville">Ville</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="commune">
+                                            <label for="Prenom">Commune</label>
                                         </div>
                                     </div>
                                     <div class="col-12 text-center">
-                                        <button class="btn bg-custom py-3 px-5" type="submit">Envoyer le message</button>
+                                        <button class="btn bg-custom py-3 px-5" type="submit">Envoyer ma demande</button>
                                     </div>
                                 </div>
                             </form>
@@ -174,55 +204,89 @@
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" >
                    
-                        <div class="row g-4">
-                            <!-- Première ligne -->
-
-                            <h1>Contactez-nous</h1>
-                            <p>Soyez libre de nous contacter pour toutes informations</p>
-                            <div class="col-md-6">
-                                <div class="card shadow mb-3" style="max-width: 18rem;">
-                                <div class="card-body ">
+                    <div class="card  shadow mb-4">
+                        <h1 class="display-6 mb-4 mt-4 text-center">Prendre RDV</h1>
+                        <div class="card-body">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-6">
+                                        <div class="form-floating">
+                                            
+                                            <input type="text" class="form-control" id="name">
+                                            <label for="name">Nom </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="Prenom">
+                                            <label for="Prenom">Prénom</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="phone" placeholder="Your Phone">
+                                            <label for="phone">Téléphone</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="phone" placeholder="Your Phone">
+                                            <label for="phone"> Téléphone Fixe</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                            <label for="email">Adresse mail</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="date" class="form-control" id="date" placeholder="date">
+                                            <label for="date">date</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="subject" aria-label="Objet">
+                                                <option value="" selected disabled>-Selectionner-</option>
+                                                <option value="demande-info">Particulier</option>
+                                                <option value="support-technique">PME</option>
+                                            </select>
+                                            <label for="phone">Profil</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="subject" aria-label="Objet">
+                                                <option value="" selected disabled>-Selectionner-</option>
+                                                <option value="demande-info">Chef d'agence</option>
+                                                <option value="support-technique">Chargé d'affaire</option>
+                                            </select>
+                                            <label for="phone">Personne à contacter</label>
+                                        </div>
+                                    </div>                           
                                      
-                                        <h5 class="card-title">Siège</h5>
-                                        <p class="card-text">Nouveau CHU_28B, Angré, 28 P 1418, Abidjan</p>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="subject" aria-label="Objet">
+                                                <option value="" selected disabled>-Selectionner-</option>
+                                                <option value="demande-info">Ouverture des Compte</option>
+                                                <option value="support-technique">Demande de Crédit</option>
+                                                <option value="support-technique">Suivi de dossier</option>
+                                                <option value="support-technique">Demande de Crédit</option>
+                                                <option value="support-technique">Autres</option>
+                                            </select>
+                                            <label for="phone"> Objet</label>
+                                        </div>
+                                    </div> 
+                                    <div class="col-12 text-center">
+                                        <button class="btn bg-custom py-3 px-5" type="submit">Envoyer ma demande</button>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="card shadow mb-3" style="max-width: 18rem;">
-                                   
-                                    <div class="card-body ">
-                                        <h5 class="card-title"> Horaires d'ouverture</h5>
-                                        <p class="card-text">Du lundi au vendredi : 8h – 17h
-                                            Samedi : 9h30 – 12h30</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="card shadow mb-3" style="max-width: 18rem;">
-                                   
-                                    <div class="card-body ">
-                                        <h5 class="card-title"> Par téléphone</h5>
-                                        <p class="card-text">+012 345 67890</p>
-                                    </div>
-                                </div>
-                            </div>
-                    
-                            <!-- Deuxième ligne -->
-                            <div class="col-md-6">
-                                <div class="card shadow mb-3" style="max-width: 18rem;">
-                                    <div class="card-body ">
-                                        <h5 class="card-title"> Par Mail</h5>
-                                        <p class="card-text">info@example.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                          
-                    
-                           
-                    
-                           
+                            </form>
                         </div>
+                    </div>
                
                     
                 </div>
