@@ -61,8 +61,11 @@ h6,
     font-weight: 500;
 }
 
+.de{
+    color: #FFFFFF;
+}
 .btn-primary,
-.btn-outline-primary:hover {
+.btn-outline-primary:hover{
     color: var(--light);
 }
 
@@ -210,8 +213,54 @@ h6,
     background-size: cover;
 }
 
+.page-header1 {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../img/capte.png) top left no-repeat;
+    background-size: cover;
+}
+.page-header3 {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../img/credit1.png) top left no-repeat;
+    background-size: cover;
+}
+.page-header6 {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../img/credit1.png) top left no-repeat;
+    background-size: cover;
+}
+.page-header5 {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../img/client.jpg) top left no-repeat;
+    background-size: cover;
+}
+.page-header4 {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../img/credit1.png) top left no-repeat;
+    background-size: cover;
+}
+
+.page-header2 {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../img/credit.png) top left no-repeat;
+    background-size: cover;
+}
+
 .page-header .breadcrumb-item,
 .page-header .breadcrumb-item a {
+    font-weight: 500;
+}
+
+.page-header1 .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--tertiary);
+}
+.page-header1 .breadcrumb-item,
+.page-header1 .breadcrumb-item a {
     font-weight: 500;
 }
 
@@ -251,8 +300,8 @@ h6,
 }
 
 .feature .feature-box:hover {
-    background: var(--primary);
-    border-color: var(--primary) !important;
+    background: #FF1D8D;
+    border-color: #FF1D8D!important;
 }
 
 .feature .feature-box:hover * {
@@ -266,8 +315,8 @@ h6,
 }
 
 .service .nav .nav-link.active {
-    border-color: var(--primary)    !important;
-    background: var(--primary);
+    border-color: #FF1D8D   !important;
+    background: #FF1D8D;
 }
 
 .service .nav .nav-link.active h5 {
@@ -675,4 +724,9 @@ h6,
     }
  .rounded-start{
     border-radius: 20px 20px 20px 20px !important;
+ }
+
+ .content{
+    margin-left: 50px;
+    color: #161414;
  }
