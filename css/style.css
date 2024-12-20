@@ -704,7 +704,7 @@ h6,
     
     .card-img-top {
         transition: transform 0.3s ease, filter 0.3s ease; /* Ajoute une transition fluide */
-        border-radius:20px 20px 20px 20px;
+        border-radius:20px 20px 0px 0px;
     }
     
     .card-img-top:hover {
@@ -730,3 +730,21 @@ h6,
     margin-left: 50px;
     color: #161414;
  }
+
+ .pagination .page-item.disabled .page-link {
+    cursor: not-allowed;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .pagination .page-link {
+    color: #FF1D8D;
+    border: 0.1px solid #FF1D8D;
+  }
+  
+  .pagination .page-link:hover {
+    background-color: #14314a;
+    color: #f7f5f5 !important;
+    border: 0.1px solid #14314a;
+  }
+  
